@@ -1,0 +1,44 @@
+.world-img{
+    height: 250px;
+     @media (min-width: 992px) {
+        height: auto;
+     }
+}
+
+.c-logo{
+   width: 186px;
+   img{
+      width: 90%;
+      object-fit: contain;
+      height: 50px;
+   }
+}
+.logo-small{
+   height: 48px!important;
+}
+
+.image-head{
+   width: 278px;
+   flex: 0 0 auto;
+   img{
+      width: 100%;
+      height: auto;
+   }
+}
+.bg-board{
+   background-image: url(../img/bg-board.webp);
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+.blog-image{
+   width: 100%;
+   height: 393px;
+   border-radius: 20px;
+   overflow: hidden;
+   img{
+      width: 100%;
+      height: 393px;
+      object-fit: cover;
+   }
+}

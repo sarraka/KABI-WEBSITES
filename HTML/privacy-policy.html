@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KABi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="bg-all">
+        <!-- header -->
+        <header class="py-5 d-none d-lg-block">
+            <div class="container d-flex justify-content-between aligb-items-center pt-4">
+                <a href="/" class="d-flex align-items-center">
+                    <img src="img/logo-main.svg" class="logo-main">
+                </a>
+                <div class="menu-container gap-5">
+                    <a href="#" class="m-menu drawer-trigger">About Us</a>
+                    <div class="drawer">
+                        <div class="row p-4">
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-layout-grid"></i></div>
+                                    <div>
+                                        <h3>KABi</h3>
+                                        <p>Our story, vision, and values</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-building"></i></div>
+                                    <div>
+                                        <h3>Clients</h3>
+                                        <p>Helping clients grow</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-users-group"></i></div>
+                                    <div>
+                                        <h3>Team</h3>
+                                        <p>Our creative minds </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-settings-2"></i></div>
+                                    <div>
+                                        <h3>Why KABi</h3>
+                                        <p>What makes KABi unique</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 border-t-light">
+                                <div class="d-flex gap-3 pt-4">
+                                    <a href="#" class="text-white"><i class="ti ti-headset"></i>&nbsp;Contact Us</a>
+                                    <a href="#" class="text-white"><i class="ti ti-help-hexagon"></i>&nbsp;FAQs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="drawer-trigger2 m-menu">Solutions </a>
+                    <div class="drawer2">
+                        <div class="row p-4">
+                            <div class="col-lg-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box flex-column solution-menu mb-4">
+                                    <div class="icon-div">
+                                        <img src="img/icon-hyrdd.svg">
+                                    </div>
+                                    <div>
+                                        <h3>HYRDD</h3>
+                                        <p>AI-Powered Hiring Intelligence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box flex-column solution-menu mb-4">
+                                    <div class="icon-div">
+                                        <img src="img/icon-jobbit.svg">
+                                    </div>
+                                    <div>
+                                        <h3>JOBBIT</h3>
+                                        <p>AI-Powered Assessment </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box flex-column solution-menu mb-4">
+                                    <div class="icon-div">
+                                        <img src="img/icon-inviews.svg">
+                                    </div>
+                                    <div>
+                                        <h3>INVIEWS</h3>
+                                        <p>AI-Powered Career Development </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-12 border-t-light">
+                                <div class="d-flex gap-3 pt-4 align-items-center">
+                                    <a href="#" class="text-white d-flex align-items-center">Explore our
+                                        Soutions&nbsp;<i class="ti ti-arrow-narrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="drawer-trigger3 m-menu">Resources</a>
+                    <div class="drawer3">
+                        <div class="row p-4">
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-book"></i></div>
+                                    <div>
+                                        <h3>Blog</h3>
+                                        <p>Insights, tips, and fresh ideas</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-calendar-due"></i></div>
+                                    <div>
+                                        <h3>Our Events</h3>
+                                        <p>Connect, learn and grow</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-shield-star"></i></div>
+                                    <div>
+                                        <h3>Success Stories</h3>
+                                        <p>success powered by insight</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-device-laptop"></i></div>
+                                    <div>
+                                        <h3>Live Webinars</h3>
+                                        <p>Live Expert Insights</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 border-t-light">
+                                <div class="d-flex gap-3 pt-4">
+                                    <a href="#" class="text-white"><i class="ti ti-headset"></i>&nbsp;Contact Us</a>
+                                    <a href="#" class="text-white"><i class="ti ti-help-hexagon"></i>&nbsp;FAQs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="m-menu">Career</a>
+                </div>
+                <a href="#" class="tag-button">GET STARTED</a>
+            </div>
+        </header>
+
+        <header class="d-flex justify-content-between p-4 d-lg-none">
+            <a href="/" class="d-flex align-items-center">
+                <img src="img/logo-main.svg" class="logo-main">
+            </a>
+            <a href="" class="mobile-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions"><i class="ti ti-menu-4"></i></a>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-body d-flex flex-column gap-3">
+                    <div class="p-3 menu-group">
+                        <a href="" class="head-menu">About Us</a>
+                        <a href="" class="px-3">KABi</a>
+                        <a href="" class="px-3">Clients</a>
+                        <a href="" class="px-3">Team</a>
+                        <a href="" class="px-3">Why KABi</a>
+                    </div>
+                    <div class="p-3 menu-group">
+                        <a href="" class="head-menu">Solutions</a>
+                        <a href="" class="px-4">HYRDD</a>
+                        <a href="" class="px-4">INVIEWS</a>
+                        <a href="" class="px-4">JOBBIT</a>
+                        <a href="" class="px-4">Why KABi</a>
+                    </div>
+                    <div class="p-3 menu-group">
+                        <a href="" class="head-menu">Resources</a>
+                        <a href="" class="px-4">Blog</a>
+                        <a href="" class="px-4">Our Events</a>
+                        <a href="" class="px-4">Success Stories</a>
+                        <a href="" class="px-4">Live Webinars</a>
+                    </div>
+                    <a href="" class="head-menu mt-4">Career</a>
+                    <a href="#" class="tag-button mt-4 justify-content-center">GET STARTED</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- body -->
+
+        <section class="padding-top padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="w-100">
+                        <h2 class="h3 text-white mb-4">Privacy Policy</h2>
+                        <strong class="text-white">Introduction</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            Thank you for using www.KABi.ai (the “Website”) as your portal for employment services. The
+                            Website is operated by KABi Middle East FZ-LLC, which is a fully owned subsidiary of KABi
+                            Ltd. (“KABi”) Whenever you log in to the Website and use the services of the Website, you
+                            agree to be bound by the following terms. These Terms set out the relationship between KABi
+                            and you and the terms on which KABi provides the Website, the terms on which the Website
+                            will introduce you to other parties and general terms applicable to your use of the Website.
+                            You may not use this Website if you do not agree to these Terms. These Terms are effective
+                            from 1 October 2015. KABi may change these Terms at any time by posting an updated version
+                            of the Terms on this Website. KABi encourages you to check this Website regularly for any
+                            amendments to the Terms and to read the Terms each time you post content to the Website or
+                            use the Website services. Your continued use of the Website will constitute your express
+                            consent to these Terms. By visiting the Website, and/or by using any services provided via
+                            this Website, from anywhere in the world (the “Territory”), you expressly agree to be bound
+                            by the terms of this Policy and you consent to its collection, use and disclosure of your
+                            information in accordance with the terms of this Policy. KABi may amend this Policy at any
+                            time without notice, and such amendments become effective from the date upon which KABi
+                            makes them available on the Website. If you do not agree to the Policy (including any
+                            amendments), then you should immediately cease using the Website.
+                        </p>
+                        <strong class="text-white">
+                            Introduction</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            Thank you for using www.KABi.ai (the “Website”) as your portal for employment services. The
+                            Website is operatedby KABi Middle East FZ LLC (“KABi”), which is a fully owned subsidiary of
+                            KABi Ltd.. This Privacy Policy (the “Policy”) sets out the basis on which KABi collects,
+                            uses
+                            and discloses personal and/or professional or employer information obtained from you when
+                            using
+                            the Website. This Policy is effective from 1 October 2015. KABi is an online social
+                            recruitment
+                            platform for professionals searching for jobs; and for employers looking to recruit
+                            professionals to serve their recruitment and professional needs. By visiting the Website,
+                            and/or
+                            by using any services provided via this Website, from anywhere in the world (the
+                            “Territory”),
+                            you expressly agree to be bound by the terms of this Policy and you consent to its
+                            collection,
+                            use and disclosure of your information in accordance with the terms of this Policy. KABi may
+                            amend this Policy at any time without notice, and such amendments become effective from the
+                            date
+                            upon which KABi makes them available on the Website. If you do not agree to the Policy
+                            (including any amendments), then you should immediately cease using the Website.</p>
+                        <strong class="text-white">
+                            Your Information</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            The type of information collected from you is either personal to you as a professional
+                            and/or
+                            Job Seeker or proprietary as an Employer or recruiter, or is general in nature:
+                        </p>
+                        <strong class="text-white">
+                            Personal / Professional / Employer Information:</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            When you register on the Website as a user, update your information or send emails to KABi,
+                            you
+                            provide KABi with information that KABi stores and processes. Such information may include
+                            your
+                            name, address, phone number, email address, purchase and transaction history, billing
+                            information (including credit/Debit card information), interests, and other such 'Personal
+                            Information'. KABi collects information when you fill out a profile. A complete KABi profile
+                            that includes professional details – like your job title, education, and skills – helps you
+                            get
+                            found by employers / recruiters for job opportunities. After you create an account, you may
+                            choose to provide additional information on your KABi profile such as descriptions of your
+                            skills, professional experience, and educational background and other personal and
+                            professional
+                            information. Providing additional information enables you to derive more benefit from our
+                            Services by helping you express your professional identity and help employers or recruiters
+                            find
+                            you.</p>
+                        <strong class="text-white">
+                            General Information:</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            KABi also receives more general information from you as a result of your visits to, and use
+                            of,
+                            the Website. This general information does not identify you personally, and can include
+                            information such as your IP address, the date and time you access the Website, length of
+                            time
+                            you spend on the Website, your browsing history (recorded by the text and graphics files
+                            that
+                            compose that page), the Internet address of the website from which you linked directly to
+                            its
+                            Website, and other such information. To create an account on KABi, you must provide us with
+                            at
+                            least your name, email address and/or mobile number, and a password and agree to our Terms
+                            and
+                            Conditions and this Privacy Policy, which govern how we treat your information. You may
+                            provide
+                            additional information during the registration flow (for example, your postal code, job
+                            title,
+                            and company) to help you build your profile and to provide you more customized services. You
+                            understand that, by creating an account, we, and others, will be able to identify you by
+                            your
+                            KABi profile. KABi also allows you through its invitation module to send invitations on your
+                            behalf to your contacts that are not members on KABi. Please note that employers /
+                            recruiters
+                            registered on KABi will have access to your profile information that you have created when
+                            they
+                            search for professionals who are members on KABi.</p>
+                        <strong class="text-white">
+                            Collecting & Using Information</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            Most of this Website can be used without giving KABi any information, apart from those
+                            required
+                            to register as a user. However, certain services may involve collection of personal
+                            information
+                            from you. KABi uses this information to provide you with a better service, and in particular
+                            to
+                            keep internal records; improve its products, services and this Website; communicate with you
+                            if
+                            you have ordered or purchased products from KABi; contact you for market research purposes;
+                            and
+                            provide you with information about new products, promotions, special offers and other
+                            information.</p>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            KABi uses Personal Information for a range of business-related purposes, including account
+                            registration (e.g. your name, telephone number and email address), billing information,
+                            transaction and credit or debit card information (should you make a purchase with KABi); and
+                            information regarding your interests, demographics, experiences and contact preferences in
+                            order
+                            to recommend a Position for you that exists on the Website or recommend a user that might be
+                            appropriate for the Position that you are offering. If you contact KABi via the Website, or
+                            via
+                            email to the contacts set out on the Website, KABi may keep a record of that correspondence.
+                        </p>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            KABi uses General Information to help KABi make the Website more useful to users (including
+                            to
+                            help KABi assess content of interest to users), and for other purposes such as determining
+                            the
+                            Website’s technical design specifications and identifying system performance or problem
+                            areas,
+                            for tracking activity on the Website, preparing reports, assessing trends, and otherwise
+                            monitoring the way in which the Website is being used – none of which would be in a way that
+                            personally identifies any users.</p>
+                        <strong class="text-white">
+                            Non-Disclosure of Personal Information</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            You agree that KABi may share your Personal Information within any companies that are
+                            related to
+                            KABi (whether as a holding company, an affiliate or a subsidiary). KABi will not share, sell
+                            or
+                            rent your Personal Information in any manner to any third parties outside that group, except
+                            when KABi has your permission; or if required to do so by law or any governing authority; or
+                            to
+                            protect its own legitimate interests.</p>
+
+                        <strong class="text-white">
+
+
+                            Security</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            Keeping your Personal Information secure and preventing unauthorized access is of utmost
+                            priority to KABi, and KABi will take all steps reasonably necessary to protect your Personal
+                            Information against any unauthorized access, use, alteration, disclosure or destruction.
+                            Whilst
+                            KABi has put in place physical, electronic and managerial procedures to secure and safeguard
+                            your Personal Information, KABi will not be held responsible for any unauthorized access by
+                            third parties and cannot guarantee that the Personal Information provided by you or that is
+                            transmitted via this Website or by email is totally secure and safe. We may process your
+                            information outside the country where you live. We may transfer your information and process
+                            it
+                            outside your country of residence, wherever KABi, its affiliates and service providers
+                            operate.</p>
+
+                        <p class="paragraph text-white opacity-50 py-2">
+                            You can change your KABi information at any time by editing your profile, deleting content
+                            that
+                            you have posted, or by closing your account. You can also ask us for additional information
+                            we
+                            may have about your account.</p>
+
+                        <p class="paragraph text-white opacity-50 py-2">
+                            You have a right to access, modify, correct, or delete your personal information controlled
+                            by
+                            KABi regarding your profile, or change or remove your content, and close your account. We
+                            generally delete closed account information and will de-personalize any logs or other backup
+                            information through the deletion process within 30 days of account closure, except as
+                            information you have shared with others or that others have copied may also remain visible
+                            after
+                            you have closed your account or deleted the information from your own profile. In addition,
+                            you
+                            may not be able to access, correct, or eliminate any information about you that other
+                            members
+                            copied or exported out of our services, because this information may not be in our control.
+                            Your
+                            public profile may be displayed in search engine results until the search engine refreshes
+                            its
+                            cache.</p>
+                        <p class="paragraph text-white opacity-50 py-2">
+
+                            We keep your information for as long as your account is active or as needed. For example, we
+                            may
+                            keep certain information even after you close your account if it is necessary to comply with
+                            our
+                            legal obligations, meet regulatory requirements, resolve disputes, prevent fraud and abuse,
+                            or
+                            enforce this agreement.</p>
+                        <strong class="text-white">
+                            Cookies</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            The Website uses cookies, which are files that store information on your hard drive that
+                            allow a
+                            website to recognize users, track new users and to record session information. Most browsers
+                            are
+                            automatically set to accept cookies but if you choose you can disable the cookies from your
+                            browser.</p>
+                        <strong class="text-white">
+                            Link to third party Websites</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            The Website may provide links to other third party websites not within its control. KABi
+                            cannot
+                            be responsible or liable for the content of such websites and KABi advises you to exercise
+                            caution and review and understand the privacy policy of such websites before submitting any
+                            of
+                            your Personal Information to them.</p>
+                        <strong class="text-white">
+                            Applicable Law & Jurisdiction</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            This Policy, as well as your access to the Website, is subject to and governed by the laws
+                            of
+                            the United Arab Emirates as applied in the Emirate of Dubai without giving effect to
+                            conflicts
+                            of law principles thereof. Any dispute regarding this Policy or its handling of your
+                            Personal
+                            Information and General Information shall be subject to the exclusive jurisdiction of the
+                            Courts
+                            in Dubai.</p>
+                        <strong class="text-white">
+                            Contact KABi</strong>
+                        <p class="paragraph text-white opacity-50 py-2">
+                            If you have any queries, complaints or recommendations about this Policy, or if you believe
+                            that
+                            any Personal Information that KABi may hold about you is incorrect or incomplete, please
+                            contact
+                            KABi at the following address and KABi will endeavor to respond to you promptly.
+                            [info@kabi.ai]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div>
+
+    <footer class="p-4 p-lg-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ft-container">
+                    <div class="d-flex flex-column flex-lg-row gap-3 gap-lg-5">
+                        <div class="col-address d-flex flex-column" data-aos="fade-up">
+                            <a href="/" class="mb-4">
+                                <img src="img/logo-main.svg">
+                            </a>
+                            <strong class="text-white mb-3 d-flex">Kingdom of Saudi Arabia (HQ)</strong>
+                            <span class="d-flex mb-4">KABi Technologies,Lumiere Center, 1st Floor,Prince Turki Bin
+                                Abdulaziz
+                                Al Awwal Rd,Hiteen District,Riyadh, Saudi Arabia.hello@kabi.ai</span>
+                            <strong class="text-white mb-3 d-flex">Other Locations</strong>
+                            <span class="d-flex mb-4">UAE|KWT|OMN|EGY|JOR|BHR|USA|UK
+                                hello@kabi.ai</span>
+                        </div>
+                        <div class="w-100">
+                            <div class="row">
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">About Us</strong>
+                                        <a href="/about-kabi">About KABi</a>
+                                        <a href="/team">Team</a>
+                                        <a href="/clients">Clients</a>
+                                        <a href="/why-kabi">Why KABi</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">Solutions</strong>
+                                        <a href="/hyrdd">HYRDD</a>
+                                        <a href="/inviews">INVIEWS</a>
+                                        <a href="/jobbit">JOBBIT</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">Success Stories</strong>
+                                        <a href="/samsung">Samsung</a>
+                                        <a href="/neom">NEOM</a>
+                                        <a href="/ministry-of-hai">Ministry of Haj</a>
+                                        <a href="/health-holding">Health Holding</a>
+                                        <a href="/takamol">Takamol</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">Resources</strong>
+                                        <a href="/blog">Blog</a>
+                                        <a href="/events">Events</a>
+                                        <a href="/success-stories">Success Stories</a>
+                                        <a href="/live-webinars ">Live Webinars </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-letter-container">
+                        <strong class="text-white mb-3 d-flex">Newsletter</strong>
+                        <div class="d-flex gap-2">
+                            <input type="text" class="form-control small" placeholder="Email Address">
+                            <button class="tag-button btn-small">SUBSCRIBE</button>
+                        </div>
+                        <div class="mt-4 d-flex gap-3 social-media">
+                            <a href="#"><i class="ti ti-brand-x-filled"></i></a>
+                            <a href="#"><i class="ti ti-brand-instagram-filled"></i></a>
+                            <a href="#"><i class="ti ti-brand-linkedin-filled"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

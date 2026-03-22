@@ -1,0 +1,108 @@
+.tag-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: white;
+    padding: 12px 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+.tag-button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: linear-gradient(90deg, #55d0ff, #3366ff, #33cc99);
+    border-radius: 10px 27px 10px 10px;
+    clip-path: path("M0,0 H calc(100% - 28px) L100,28 V100 H0 Z");
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+.tag-button:hover::before {
+    background: linear-gradient(90deg, #33cc99, #3366ff, #55d0ff);
+}
+
+.tag-button:hover {
+    color: #33cc99;
+}
+
+
+.arabic .tag-button::before {
+    border-radius: 27px 10px 10px 10px;
+}
+
+.btn-small {
+    padding: 10px 22px !important;
+    font-size: 12px !important;
+}
+
+// button
+/* From Uiverse.io by niat786 */
+.button {
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    overflow: visible;
+    /* so ::before can be visible */
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    z-index: -1;
+    border-radius: 0.25rem;
+    clip-path: polygon(0 0,
+            calc(100% - 15px) 0,
+            100% 15px,
+            100% 100%,
+            0 100%);
+    background: linear-gradient(94.14deg, #72C7D8 0.47%, #3361A9 46.1%, #41A575 95.53%);
+    background-size: 200% 200%;
+    animation: gradientMove 3s linear infinite;
+}
+
+/* Animate background position for gradient */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

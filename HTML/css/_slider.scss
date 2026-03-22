@@ -1,0 +1,220 @@
+.product-slider {
+    background: linear-gradient(0deg, rgba(5, 1, 13, 0.6), rgba(5, 1, 13, 0.6)), linear-gradient(96.06deg, #7CEFFF 12.48%, #397EE4 40.34%, #1B0536 87.81%);
+    border: 1px solid #282D45;
+    border-radius: 12px;
+    width: 100%;
+    height: fit-content;
+    padding: 24px;
+
+    .product-image-container {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        height: auto;
+        margin-bottom: 24px;
+
+        @media (min-width: 992px) {
+            left: -100px;
+            height: 480px;
+            margin-bottom: 0px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+
+            @media (min-width: 992px) {
+                height: 480px;
+            }
+        }
+    }
+
+    .slides-wrapper {
+        position: relative;
+    }
+
+    .slide {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    .slide.active {
+        display: block;
+    }
+
+
+}
+
+.arabic .product-slider {
+    .product-image-container {
+        @media (min-width: 992px) {
+            left: inherit;
+            right: -100px;
+        }
+    }
+}
+
+.inviews-slide {
+    .product-image-container {
+        right: 0px;
+        left: inherit;
+        height: auto;
+        margin-bottom: 24px;
+
+        @media (min-width: 992px) {
+            right: -100px;
+            left: inherit;
+        }
+    }
+}
+
+.control-next {
+    display: flex;
+    gap: 24px;
+
+    a {
+        display: flex;
+        width: 48px;
+        height: 48px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        color: var(--white);
+        border-radius: 160px;
+
+        &:hover {
+            background-color: rgba($color: #fff, $alpha: 0.7);
+
+            i {
+                color: #000000;
+            }
+        }
+
+        i {
+            color: var(--white);
+            font-size: 24px;
+        }
+    }
+
+    .active {
+        background-color: rgba($color: #fff, $alpha: 0.7);
+
+        i {
+            color: #000000;
+        }
+    }
+}
+
+.arabic .control-next {
+    a {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
+
+
+
+
+// logo slider
+.logo-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    overflow-x: hidden;
+
+    .slider-track {
+        display: inline-block;
+        animation: scroll 50s linear infinite;
+    }
+
+    .slider-track.rtl {
+        animation-direction: reverse;
+    }
+
+    .slide {
+        display: inline-block;
+        padding: 0 40px;
+    }
+
+    .slide img {
+        height: 60px;
+        max-width: 100%;
+        filter: brightness(0) invert(1);
+        /* White logos */
+        opacity: 0.8;
+        transition: opacity 0.3s;
+    }
+
+    .slide img:hover {
+        opacity: 1;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+
+
+// home slider
+.case-slide {
+    .slide img {
+        height: auto !important;
+        max-width: 100% !important;
+        filter: inherit;
+        opacity: 1 !important;
+        ;
+        transition: opacity 1 !important;
+        ;
+    }
+
+    .carousel-indicators {
+        bottom: -80px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 8px;
+        height: 8px;
+        background-color: rgba($color: #41A575, $alpha: 0.2);
+    }
+
+    .carousel-indicators .active {
+        width: 24px;
+        background-color: var(--green);
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: static;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba($color: #ffffff, $alpha: 0.7);
+        border-radius: 160px;
+    }
+
+    .carousel-control-next:focus,
+    .carousel-control-next:hover,
+    .carousel-control-prev:focus,
+    .carousel-control-prev:hover {
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        color: #000000;
+    }
+}
+
+.arabic .case-slide .carousel-control-next,
+.carousel-control-prev {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

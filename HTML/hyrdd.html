@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KABi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="bg-all">
+        <!-- header -->
+        <header class="py-5 d-none d-lg-block">
+            <div class="container d-flex justify-content-between aligb-items-center pt-4">
+                <a href="/" class="d-flex align-items-center">
+                    <img src="img/logo-main.svg" class="logo-main">
+                </a>
+                <div class="menu-container gap-5">
+                    <a href="#" class="m-menu drawer-trigger">About Us</a>
+                    <div class="drawer">
+                        <div class="row p-4">
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-layout-grid"></i></div>
+                                    <div>
+                                        <h3>KABi</h3>
+                                        <p>Our story, vision, and values</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-building"></i></div>
+                                    <div>
+                                        <h3>Clients</h3>
+                                        <p>Helping clients grow</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-users-group"></i></div>
+                                    <div>
+                                        <h3>Team</h3>
+                                        <p>Our creative minds </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-settings-2"></i></div>
+                                    <div>
+                                        <h3>Why KABi</h3>
+                                        <p>What makes KABi unique</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 border-t-light">
+                                <div class="d-flex gap-3 pt-4">
+                                    <a href="#" class="text-white"><i class="ti ti-headset"></i>&nbsp;Contact Us</a>
+                                    <a href="#" class="text-white"><i class="ti ti-help-hexagon"></i>&nbsp;FAQs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="drawer-trigger2 m-menu">Solutions </a>
+                    <div class="drawer2">
+                        <div class="row p-4">
+                            <div class="col-lg-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box flex-column solution-menu mb-4">
+                                    <div class="icon-div">
+                                        <img src="img/icon-hyrdd.svg">
+                                    </div>
+                                    <div>
+                                        <h3>HYRDD</h3>
+                                        <p>AI-Powered Hiring Intelligence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box flex-column solution-menu mb-4">
+                                    <div class="icon-div">
+                                        <img src="img/icon-jobbit.svg">
+                                    </div>
+                                    <div>
+                                        <h3>JOBBIT</h3>
+                                        <p>AI-Powered Assessment </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box flex-column solution-menu mb-4">
+                                    <div class="icon-div">
+                                        <img src="img/icon-inviews.svg">
+                                    </div>
+                                    <div>
+                                        <h3>INVIEWS</h3>
+                                        <p>AI-Powered Career Development </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-12 border-t-light">
+                                <div class="d-flex gap-3 pt-4 align-items-center">
+                                    <a href="#" class="text-white d-flex align-items-center">Explore our
+                                        Soutions&nbsp;<i class="ti ti-arrow-narrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="drawer-trigger3 m-menu">Resources</a>
+                    <div class="drawer3">
+                        <div class="row p-4">
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-book"></i></div>
+                                    <div>
+                                        <h3>Blog</h3>
+                                        <p>Insights, tips, and fresh ideas</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-calendar-due"></i></div>
+                                    <div>
+                                        <h3>Our Events</h3>
+                                        <p>Connect, learn and grow</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-shield-star"></i></div>
+                                    <div>
+                                        <h3>Success Stories</h3>
+                                        <p>success powered by insight</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <a class="d-flex gap-3 aligb-items-center menu-box">
+                                    <div class="icon-div"><i class="ti ti-device-laptop"></i></div>
+                                    <div>
+                                        <h3>Live Webinars</h3>
+                                        <p>Live Expert Insights</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 border-t-light">
+                                <div class="d-flex gap-3 pt-4">
+                                    <a href="#" class="text-white"><i class="ti ti-headset"></i>&nbsp;Contact Us</a>
+                                    <a href="#" class="text-white"><i class="ti ti-help-hexagon"></i>&nbsp;FAQs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="m-menu">Career</a>
+                </div>
+                <a href="#" class="tag-button">GET STARTED</a>
+            </div>
+        </header>
+
+        <header class="d-flex justify-content-between p-4 d-lg-none">
+            <a href="/" class="d-flex align-items-center">
+                <img src="img/logo-main.svg" class="logo-main">
+            </a>
+            <a href="" class="mobile-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions"><i class="ti ti-menu-4"></i></a>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-body d-flex flex-column gap-3">
+                    <div class="p-3 menu-group">
+                        <a href="" class="head-menu">About Us</a>
+                        <a href="" class="px-3">KABi</a>
+                        <a href="" class="px-3">Clients</a>
+                        <a href="" class="px-3">Team</a>
+                        <a href="" class="px-3">Why KABi</a>
+                    </div>
+                    <div class="p-3 menu-group">
+                        <a href="" class="head-menu">Solutions</a>
+                        <a href="" class="px-4">HYRDD</a>
+                        <a href="" class="px-4">INVIEWS</a>
+                        <a href="" class="px-4">JOBBIT</a>
+                        <a href="" class="px-4">Why KABi</a>
+                    </div>
+                    <div class="p-3 menu-group">
+                        <a href="" class="head-menu">Resources</a>
+                        <a href="" class="px-4">Blog</a>
+                        <a href="" class="px-4">Our Events</a>
+                        <a href="" class="px-4">Success Stories</a>
+                        <a href="" class="px-4">Live Webinars</a>
+                    </div>
+                    <a href="" class="head-menu mt-4">Career</a>
+                    <a href="#" class="tag-button mt-4 justify-content-center">GET STARTED</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- body -->
+
+        <section class="padding-top pb-5">
+            <div class="container">
+                <div class="row justify-content-between text-center position-relative">
+                    <div class="w-100 w-lg-70 m-auto" data-aos="zoom-out">
+                        <h1 class="text-hyrdd-gradient">HYRDD</h1>
+                        <h2 class="h1 text-white">Agentic AI-powered Hiring Intelligence</h2>
+                        <p class="paragraph text-white opacity-50 py-4">
+                            Whether you're a startup or enterprise, our AI grows with you—offering scalable automation
+                            and optimization tools.
+                        </p>
+                    </div>
+                    <div class="w-100 d-flex justify-content-center">
+                        <img src="img/hyrdd-bg-hero.webp" class="img-fluid" data-aos="fade-up" alt="">
+                    </div>
+                    <img src="img/hyrdd-bg.svg" class="bg-hyrdd-particles" data-aos="zoom-out" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="padding-top padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-aos="zoom-out">
+                        <h2 class="h1 text-white">What Makes <span class="text-hyrdd">INVIEWS</span> Different?</h2>
+                        <p class="text-white opacity-50 w-100 w-lg-70 m-auto mt-4">
+                            HYRDD doesn’t just track applicants—it evaluates, learns, and improves. With built-in
+                            Agentic AI and automation across workflows, it delivers a new level of control and
+                            efficiency.
+                        </p>
+                    </div>
+                    <div class="col-lg-12 mt-5" data-aos="zoom-out">
+                        <div class="product-slider">
+                            <div class="slides-wrapper">
+                                <!-- Slide 1 -->
+                                <div class="slide active">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-lg-7">
+                                            <div class="product-image-container">
+                                                <img src="img/h-1.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="d-flex justify-content-end control-next">
+                                                <a href="#" class="prev"><i class="ti ti-arrow-left"></i></a>
+                                                <a href="#" class="next active"><i class="ti ti-arrow-right"></i></a>
+                                            </div>
+                                            <div class="mb-3">
+                                                <img src="img/ai-icon.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="fs-5 text-white">ProfileAI – Smart Candidate
+                                                    Analysis & Prediction</h3>
+                                                <p class="paragraph text-white">Education & Academic Strengths: <span
+                                                        class="opacity-50"> Evaluates
+                                                        academic background, certifications, and
+                                                        learning paths.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Skills Genome Mapping: <span
+                                                        class="opacity-50">
+                                                        Identifies core and transferable skills with proficiency levels.
+                                                    </span>
+                                                </p>
+                                                <p class="paragraph text-white">Work Experience Intelligence: <span
+                                                        class="opacity-50">
+                                                        Analyzes career progression and domain expertise.
+                                                    </span>
+                                                </p>
+                                                <p class="paragraph text-white">AI-Driven Candidate Scoring: <span
+                                                        class="opacity-50">Ranks applicants
+                                                        based on job fit, potential, and
+                                                        culture.
+                                                    </span>
+                                                </p>
+                                                <p class="paragraph text-white">Predictive Hiring Insights: <span
+                                                        class="opacity-50">
+                                                        Forecasts long-term success and alignment.
+                                                    </span>
+                                                </p>
+                                                <!-- Add other content here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide 2 -->
+                                <div class="slide">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-lg-7">
+                                            <div class="product-image-container">
+                                                <img src="img/h-2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="d-flex justify-content-end control-next">
+                                                <a href="#" class="prev"><i class="ti ti-arrow-left"></i></a>
+                                                <a href="#" class="next active"><i class="ti ti-arrow-right"></i></a>
+                                            </div>
+                                            <div class="mb-3">
+                                                <img src="img/ai-icon.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="fs-5 text-white">AI Talent Matching Agents – Find the
+                                                    best-fit fast</h3>
+                                                <p class="paragraph text-white">Reads the whole story,
+                                                    <span class="opacity-50"> not just keywords – education, projects,
+                                                        and goals all count.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Matches in real time against
+                                                    <span class="opacity-50"> live job data and company needs.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Surfaces hidden potential
+                                                    <span class="opacity-50"> by spotting transferable skills other
+                                                        tools miss.</span>
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Surfaces hidden potential
+                                                    <span class="opacity-1"> clear match score</span>
+                                                    and reason for every candidate.
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Gets smarter after every
+                                                    hire, <span class="opacity-1">learning from outcomes</span> to
+                                                    improve the next search.
+                                                </p>
+                                                <!-- Add other content here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="slide">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-lg-7">
+                                            <div class="product-image-container">
+                                                <img src="img/h-3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="d-flex justify-content-end control-next">
+                                                <a href="#" class="prev"><i class="ti ti-arrow-left"></i></a>
+                                                <a href="#" class="next active"><i class="ti ti-arrow-right"></i></a>
+                                            </div>
+                                            <div class="mb-3">
+                                                <img src="img/ai-icon.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="fs-5 text-white">AI Talent Matching Agents – Find the
+                                                    best-fit fast</h3>
+                                                <p class="paragraph text-white">Reads the whole story,
+                                                    <span class="opacity-50"> not just keywords – education, projects,
+                                                        and goals all count.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Matches in real time against
+                                                    <span class="opacity-50"> live job data and company needs.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Surfaces hidden potential
+                                                    <span class="opacity-50"> by spotting transferable skills other
+                                                        tools miss.</span>
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Surfaces hidden potential
+                                                    <span class="opacity-1"> clear match score</span>
+                                                    and reason for every candidate.
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Gets smarter after every
+                                                    hire, <span class="opacity-1">learning from outcomes</span> to
+                                                    improve the next search.
+                                                </p>
+                                                <!-- Add other content here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="slide">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-lg-7">
+                                            <div class="product-image-container">
+                                                <img src="img/h-4.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="d-flex justify-content-end control-next">
+                                                <a href="#" class="prev"><i class="ti ti-arrow-left"></i></a>
+                                                <a href="#" class="next active"><i class="ti ti-arrow-right"></i></a>
+                                            </div>
+                                            <div class="mb-3">
+                                                <img src="img/ai-icon.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="fs-5 text-white">AI Talent Matching Agents – Find the
+                                                    best-fit fast</h3>
+                                                <p class="paragraph text-white">Reads the whole story,
+                                                    <span class="opacity-50"> not just keywords – education, projects,
+                                                        and goals all count.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Matches in real time against
+                                                    <span class="opacity-50"> live job data and company needs.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Surfaces hidden potential
+                                                    <span class="opacity-50"> by spotting transferable skills other
+                                                        tools miss.</span>
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Surfaces hidden potential
+                                                    <span class="opacity-1"> clear match score</span>
+                                                    and reason for every candidate.
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Gets smarter after every
+                                                    hire, <span class="opacity-1">learning from outcomes</span> to
+                                                    improve the next search.
+                                                </p>
+                                                <!-- Add other content here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 5 -->
+                                <div class="slide">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-lg-7">
+                                            <div class="product-image-container">
+                                                <img src="img/h-5.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="d-flex justify-content-end control-next">
+                                                <a href="#" class="prev"><i class="ti ti-arrow-left"></i></a>
+                                                <a href="#" class="next active"><i class="ti ti-arrow-right"></i></a>
+                                            </div>
+                                            <div class="mb-3">
+                                                <img src="img/ai-icon.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="fs-5 text-white">AI Talent Matching Agents – Find the
+                                                    best-fit fast</h3>
+                                                <p class="paragraph text-white">Reads the whole story,
+                                                    <span class="opacity-50"> not just keywords – education, projects,
+                                                        and goals all count.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Matches in real time against
+                                                    <span class="opacity-50"> live job data and company needs.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Surfaces hidden potential
+                                                    <span class="opacity-50"> by spotting transferable skills other
+                                                        tools miss.</span>
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Surfaces hidden potential
+                                                    <span class="opacity-1"> clear match score</span>
+                                                    and reason for every candidate.
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Gets smarter after every
+                                                    hire, <span class="opacity-1">learning from outcomes</span> to
+                                                    improve the next search.
+                                                </p>
+                                                <!-- Add other content here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 6 -->
+                                <div class="slide">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-lg-7">
+                                            <div class="product-image-container">
+                                                <img src="img/h-6.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="d-flex justify-content-end control-next">
+                                                <a href="#" class="prev"><i class="ti ti-arrow-left"></i></a>
+                                                <a href="#" class="next active"><i class="ti ti-arrow-right"></i></a>
+                                            </div>
+                                            <div class="mb-3">
+                                                <img src="img/ai-icon.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="fs-5 text-white">AI Talent Matching Agents – Find the
+                                                    best-fit fast</h3>
+                                                <p class="paragraph text-white">Reads the whole story,
+                                                    <span class="opacity-50"> not just keywords – education, projects,
+                                                        and goals all count.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Matches in real time against
+                                                    <span class="opacity-50"> live job data and company needs.</span>
+                                                </p>
+                                                <p class="paragraph text-white">Surfaces hidden potential
+                                                    <span class="opacity-50"> by spotting transferable skills other
+                                                        tools miss.</span>
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Surfaces hidden potential
+                                                    <span class="opacity-1"> clear match score</span>
+                                                    and reason for every candidate.
+                                                </p>
+                                                <p class="paragraph text-white opacity-50">Gets smarter after every
+                                                    hire, <span class="opacity-1">learning from outcomes</span> to
+                                                    improve the next search.
+                                                </p>
+                                                <!-- Add other content here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Add more slides as needed -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-aos="zoom-out">
+                        <h2 class="h1 text-white">Who Benefits from <span class="text-hyrdd">HYRDD?</span></h2>
+                        <p class="text-white opacity-50 w-100 w-lg-70 m-auto mt-4">
+                            Whether you're building national workforces or scaling startups, KABi adapts to your
+                            mission.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0" data-aos="zoom-out">
+                        <div class="card-hyrdd">
+                            <img src="img/icon-enp.svg" alt="">
+                            <h3 class="text-white h4 d-flex mt-4">Enterprises & Giga-Projects</h3>
+                            <p class="paragraph opacity-50 text-white">Manage hiring at scale with consistency and
+                                visibility.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0" data-aos="zoom-out">
+                        <div class="card-hyrdd">
+                            <img src="img/icon-build.svg" alt="">
+                            <h3 class="text-white h4 d-flex mt-4">SMEs</h3>
+                            <p class="paragraph opacity-50 text-white">Leverage AI capabilities without a large
+                                recruitment team.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0" data-aos="zoom-out">
+                        <div class="card-hyrdd">
+                            <img src="img/icon-gover.svg" alt="">
+                            <h3 class="text-white h4 d-flex mt-4">Government Entities</h3>
+                            <p class="paragraph opacity-50 text-white">Standardize processes and support national
+                                workforce initiatives.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0" data-aos="zoom-out">
+                        <div class="card-hyrdd">
+                            <img src="img/icon-recr.svg" alt="">
+                            <h3 class="text-white h4 d-flex mt-4">Recruitment Firms</h3>
+                            <p class="paragraph opacity-50 text-white">Centralize client hiring pipelines with powerful
+                                AI insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-aos="zoom-out">
+                        <h2 class="h1 text-white">Why Leading Organizations Choose <span class="text-hyrdd">HYRDD</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="padding-bottom px-10" data-aos="zoom-out">
+            <div class="row">
+                <div class="col-lg-3 mb-3 mb-lg-0">
+                    <div class="card-hyrdd min-350">
+                        <img src="img/icon-ac.svg" alt="">
+                        <h3 class="text-white h4 d-flex mt-4">Accelerates Time
+                            to Hire</h3>
+                        <p class="paragraph opacity-50 text-white">Reduce manual tasks and shorten the hiring cycle.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3 mb-lg-0">
+                    <div class="card-hyrdd min-350">
+                        <img src="img/icon-en.svg" alt="">
+                        <h3 class="text-white h4 d-flex mt-4">Enhances decision accuracy</h3>
+                        <p class="paragraph opacity-50 text-white">Leverage AI to screen, score, and recommend best-fit
+                            candidates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3 mb-lg-0">
+                    <div class="card-hyrdd min-350">
+                        <img src="img/icon-sca.svg" alt="">
+                        <h3 class="text-white h4 d-flex mt-4">Scales Seamlessly for Growth</h3>
+                        <p class="paragraph opacity-50 text-white">Designed to handle recruitment needs across teams,
+                            departments, and projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3 mb-lg-0">
+                    <div class="card-hyrdd min-350">
+                        <img src="img/icon-sup.svg" alt="">
+                        <h3 class="text-white h4 d-flex mt-4">Supports Strategic Hiring</h3>
+                        <p class="paragraph opacity-50 text-white">Use data and predictive insights for confident
+                            decision-making.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-aos="zoom-out">
+                        <h2 class="h1 text-white"><span class="text-hyrdd">HYRDD</span> in Action: Success Stories</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mb-5" data-aos="zoom-out">
+                        <div class="story-box">
+                            <div class="row">
+                                <div class="col-lg-6" data-aos="fade-in">
+                                    <div class="content-box">
+                                        <h2 class="h2 text-white my-4">NEOM</h2>
+                                        <p class="paragraph text-white">
+                                            With over 170 companies involved, NEOM selected HYRDD as a centralized
+                                            AI-powered recruitment platform. The outcome: real-time matching, improved
+                                            transparency, and accelerated workforce growth aligned with Vision 2030.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 relative" data-aos="fade-in">
+                                    <div class="over-lay-box d-flex flex-column justify-content-start">
+                                        <div class="p-5 d-flex justify-content-end w-100">
+                                            <img src="img/logo-neom.webp" alt="">
+                                        </div>
+                                        <div class="d-flex w-100 gap-4 px-4">
+                                            <div class="w-100 text-center">
+                                                <h3 class="text-white h3">60%</h3>
+                                                <p class="paragraph text-white">faster hiring cycles</p>
+                                            </div>
+                                            <div class="w-100 text-center">
+                                                <h3 class="text-white h3">85%</h3>
+                                                <p class="paragraph text-white">accuracy improvement</p>
+                                            </div>
+                                            <div class="w-100 text-center">
+                                                <h3 class="text-white h3">100%</h3>
+                                                <p class="paragraph text-white">process standardization</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/neom.webp" class="main-image" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" data-aos="zoom-out">
+                        <div class="story-box">
+                            <div class="row">
+                                <div class="col-lg-6 relative" data-aos="fade-in">
+                                    <div class="over-lay-box d-flex flex-column justify-content-start">
+                                        <div class="p-5 d-flex justify-content-start w-100">
+                                            <img src="img/logo-samsung.webp" alt="">
+                                        </div>
+                                        <div class="d-flex w-100 gap-4 px-5">
+                                            <div class="w-100 text-center">
+                                                <h3 class="text-white h3">80%</h3>
+                                                <p class="paragraph text-white">faster hiring cycles</p>
+                                            </div>
+                                            <div class="w-100 text-center">
+                                                <h3 class="text-white h3">95%</h3>
+                                                <p class="paragraph text-white">accuracy in candidate-job fit</p>
+                                            </div>
+                                            <div class="w-100 text-center">
+                                                <h3 class="text-white h3">60%</h3>
+                                                <p class="paragraph text-white">operational cost reduction</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/samsung.webp" class="main-image" alt="">
+                                </div>
+                                <div class="col-lg-6" data-aos="fade-in">
+                                    <div class="content-box">
+                                        <h2 class="h2 text-white my-4">Samsung Engineering
+                                            Accelerating Global Recruitment</h2>
+                                        <p class="paragraph text-white">
+                                            To accelerate hiring across 13 countries, Samsung adopted KABi’s HYRDD
+                                            system to streamline recruitment and enhance talent matching through Gen-AI.
+                                            The result: faster decisions, smarter selection, and cross-border hiring
+                                            efficiency.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-4">
+                        <a href="" class="d-flex text-white text-uppercase small align-items-center">read more&nbsp;<i class="ti ti-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="padding-top padding-bottom px-10" data-aos="zoom-out">
+            <div class="hero-hyrdd text-center">
+                <h2 class="h1 text-center text-white">Ready to Hire Smarter with HYRDD ?</h2>
+                <p class="text-white opacity-50 paragraph">Book your demo today or connect with our product experts </p>
+                <div class="d-flex justify-content-center mt-5">
+                    <a href="#" class="tag-button">REQUEST DEMO</a>
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <footer class="p-4 px-lg-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ft-container">
+                    <div class="d-flex flex-column flex-lg-row gap-3 gap-lg-5">
+                        <div class="col-address d-flex flex-column" data-aos="fade-up">
+                            <a href="/" class="mb-4">
+                                <img src="img/logo-main.svg">
+                            </a>
+                            <strong class="text-white mb-3 d-flex">Kingdom of Saudi Arabia (HQ)</strong>
+                            <span class="d-flex mb-4">KABi Technologies,Lumiere Center, 1st Floor,Prince Turki Bin
+                                Abdulaziz
+                                Al Awwal Rd,Hiteen District,Riyadh, Saudi Arabia.hello@kabi.ai</span>
+                            <strong class="text-white mb-3 d-flex">Other Locations</strong>
+                            <span class="d-flex mb-4">UAE|KWT|OMN|EGY|JOR|BHR|USA|UK
+                                hello@kabi.ai</span>
+                        </div>
+                        <div class="w-100">
+                            <div class="row">
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">About Us</strong>
+                                        <a href="/about-kabi">About KABi</a>
+                                        <a href="/team">Team</a>
+                                        <a href="/clients">Clients</a>
+                                        <a href="/why-kabi">Why KABi</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">Solutions</strong>
+                                        <a href="/hyrdd">HYRDD</a>
+                                        <a href="/inviews">INVIEWS</a>
+                                        <a href="/jobbit">JOBBIT</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">Success Stories</strong>
+                                        <a href="/samsung">Samsung</a>
+                                        <a href="/neom">NEOM</a>
+                                        <a href="/ministry-of-hai">Ministry of Haj</a>
+                                        <a href="/health-holding">Health Holding</a>
+                                        <a href="/takamol">Takamol</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3" data-aos="fade-up">
+                                    <div class="ft-menu-box d-flex flex-column gap-3">
+                                        <strong class="text-white">Resources</strong>
+                                        <a href="/blog">Blog</a>
+                                        <a href="/events">Events</a>
+                                        <a href="/success-stories">Success Stories</a>
+                                        <a href="/live-webinars ">Live Webinars </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-letter-container">
+                        <strong class="text-white mb-3 d-flex">Newsletter</strong>
+                        <div class="d-flex gap-2">
+                            <input type="text" class="form-control small" placeholder="Email Address">
+                            <button class="tag-button btn-small">SUBSCRIBE</button>
+                        </div>
+                        <div class="mt-4 d-flex gap-3 social-media">
+                            <a href="#"><i class="ti ti-brand-x-filled"></i></a>
+                            <a href="#"><i class="ti ti-brand-instagram-filled"></i></a>
+                            <a href="#"><i class="ti ti-brand-linkedin-filled"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

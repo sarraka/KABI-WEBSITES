@@ -1,0 +1,160 @@
+.menu-box {
+  padding: 8px;
+  border-radius: 16px;
+
+  .icon-div {
+    width: 55px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      font-size: 32px;
+      color: var(--white);
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 0;
+    color: var(--white);
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+    color: var(--text);
+  }
+
+  &:hover {
+    background-color: #171719 !important;
+    cursor: pointer;
+  }
+}
+
+.border-b-light {
+  border-bottom: 1px solid rgb(255 255 255 / 15%)
+}
+
+.border-t-light {
+  border-top: 1px solid rgb(255 255 255 / 15%)
+}
+
+
+// swiper card
+
+.slider-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.slider-title span {
+  color: #48c78e;
+}
+
+/* Style for external nav arrows */
+.slider-arrows .swiper-button-next,
+.slider-arrows .swiper-button-prev {
+  position: relative;
+  inset: 0;
+  /* reset Swiper's default positioning */
+  width: 42px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.arabic .slider-arrows .arabic .swiper-button-next,
+.arabic .slider-arrows .arabic .swiper-button-prev {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.slider-arrows .swiper-button-next:hover,
+.slider-arrows .swiper-button-prev:hover {
+  background: rgba(72, 199, 142, 0.25);
+}
+
+.slider-arrows .swiper-button-next::after,
+.slider-arrows .swiper-button-prev::after {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Optional: override Swiper's built-in icon placement */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-family: swiper-icons;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .slider-arrows {
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.card-box {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  padding: 24px;
+}
+
+.gradient-border-box {
+  position: relative;
+  padding: 2rem;
+  border-radius: 20px;
+  background:
+    linear-gradient(#0b0d17, #0b0d17) padding-box,
+    /* Inner background */
+    linear-gradient(135deg, #00ff99, #040f1f) border-box;
+  /* Gradient border */
+  border: 1px solid transparent;
+  color: white;
+  max-width: 100%;
+  width: 100%;
+}
+
+.card-hyrdd {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #282D45;
+  border-radius: 12px;
+  padding: 32px;
+  transition: all 0.5s ease;
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(5, 1, 13, 0.6), rgba(5, 1, 13, 0.6)), linear-gradient(194.9deg, #7CEFFF 12.36%, #397EE4 40.06%, #1B0536 87.24%);
+    border: 1px solid #282D45;
+  }
+}
+
+.card-inviews {
+  &:hover {
+    background: linear-gradient(0deg, rgba(5, 1, 13, 0.6), rgba(5, 1, 13, 0.6)), linear-gradient(193.07deg, #8CFFE2 14.42%, #41A575 46.7%, #1B0536 101.7%);
+    border: 1px solid #282D45;
+    border-radius: 12px;
+  }
+}
+
+.min-350 {
+  min-height: auto;
+
+  @media (min-width: 992px) {
+    min-height: 350px;
+  }
+}

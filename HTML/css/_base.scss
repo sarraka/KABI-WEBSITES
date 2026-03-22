@@ -1,0 +1,39 @@
+body {
+    background-color: #0F1117;
+    background-image: url(../img/main-bg.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all 0.5s ease;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.arabic {
+    direction: rtl;
+}
+ @media (min-width: 992px) {
+     .w-lg-70{
+         width: 70%!important;
+     }
+     .w-lg-50{
+         width: 50%!important;
+     }
+ }
+ .gap-50{
+    gap: 50px;
+ }

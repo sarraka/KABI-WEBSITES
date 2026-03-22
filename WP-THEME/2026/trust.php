@@ -1,0 +1,1634 @@
+<?php
+/* Template Name: trust */
+?>
+<?php get_header(); ?>
+<div class="trust">
+    <section class="d-flex justify-content-center kabi-trust-banner align-items-center">
+        <div class="container-xl d-flex flex-column text-center align-items-center">
+            <img src="/wp-content/uploads/2026/03/ri_lock_unlock_line.webp">
+            <h1 class="text-white fs-heading text-center aos-init aos-animate" data-aos="fade-up">Start your<span
+                    class="text-gradient">&nbsp;security review</span></h1>
+            <span class="text-white fs-5">View & download sensitive information</span>
+            <span class="mb-3 text-white fs-5">Ask for information</span>
+            <a class="btn-gradient btn-request text-white font-weight-600 mt-3" href="/request-a-demo/">Request Access</a>
+        </div>
+    </section>
+
+    <section class="hero-trust py-5 text-center">
+        <div class="container-xl d-flex flex-column justify-content-center">
+            <h2 class="fs-30 fs-sub-heading text-capitalize text-white mt-4 aos-init mb-4" data-aos="fade-up">Overview
+            </h2>
+            <span class="mb-3 text-white fs-5">
+                Welcome to KABi's Trust Center. Our commitment to data privacy and security is embedded in every part of
+                our business. Use this portal to learn about our security posture and request access to our security
+                documentation.
+                </h3>
+        </div>
+    </section>
+
+    <section class="padding-top pb-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Compliance</div>
+                        <a class="fs-6 text-blue-color-product" data-bs-toggle="modal" href="#compliance">View
+                            All</a>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-4 text-center">
+                            <div class="box-card-trust">
+                                <img src="img/csa-star.webp">
+                                <div class="text-center d-flex gap-1 justify-content-center">
+                                    <img src="img/check.svg">
+                                    <div class="fs-6">CSA STAR</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="box-card-trust">
+                                <img src="img/gdpr.webp">
+                                <div class="text-center d-flex gap-1 justify-content-center">
+                                    <img src="img/check.svg">
+                                    <div class="fs-6">GDPR</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="box-card-trust">
+                                <img src="img/soc_2.webp">
+                                <div class="text-center d-flex gap-1 justify-content-center">
+                                    <img src="img/check.svg">
+                                    <div class="fs-6">SOC 2</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 d-none d-lg-block">
+                            <hr class="border">
+                        </div>
+                    </div>
+                    <div class="row mt-lg-4">
+                        <div class="col-lg-4 text-center">
+                            <div class="box-card-trust">
+                                <img src="img/iso.webp">
+                                <div class="text-center d-flex gap-1 justify-content-center">
+                                    <img src="img/progress.svg">
+                                    <div class="fs-6">ISO 27001</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <div class="box-card-trust">
+                                <img src="img/iso.webp">
+                                <div class="text-center d-flex gap-1 justify-content-center">
+                                    <img src="img/progress.svg">
+                                    <div class="fs-6">ISO 9001</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">All Documents</div>
+                        <a class="fs-6 text-blue-color-product" href="#">View All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Pentest Report</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">CAIQ</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Network Diagram</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">CSA STAR</div>
+                        </div>
+                        <div class="mt-4">
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-success">Request Access to Private Documents</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Risk Profile</div>
+                        <a class="fs-6 text-blue-color-product" data-bs-toggle="modal" href="#risk_profile">View All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom justify-content-between cursor"
+                            data-bs-target="#risk_profile" data-bs-toggle="modal">
+                            <div class="fs-6">Data Access Level</div>
+                            <div class="fs-6 font-weight-600">Public</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom justify-content-between cursor"
+                            data-bs-target="#risk_profile" data-bs-toggle="modal">
+                            <div class="fs-6">Impact Level</div>
+                            <div class="fs-6 font-weight-600">Substantial</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 justify-content-between cursor"
+                            data-bs-target="#risk_profile" data-bs-toggle="modal">
+                            <div class="fs-6">Recovery Time Objective</div>
+                            <div class="fs-6 font-weight-600">24 hours</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Product Security</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#product_security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Multi-Factor Authentication</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#product_security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Role-Based Access Control</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 cursor" data-bs-target="#product_security"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Service-Level Agreement</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Reports</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor" data-bs-target="#report"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Network Diagram</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor" data-bs-target="#report"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Pentest Report</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 cursor" data-bs-target="#report"
+                            data-bs-toggle="modal">
+                            <img src="img/progress.svg" class="check-big">
+                            <div class="fs-6">SOC 2 Report</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Self-Assessments</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#self-assessments" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">CAIQ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Data Security</div>
+                        <a class="fs-6 text-blue-color-product" data-bs-toggle="modal" href="#data-security">View
+                            All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#data-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Access Monitoring</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#data-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Backups Enabled</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 cursor" data-bs-target="#data-security"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Encryption-at-rest</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">App Security</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#app-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">SBOM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Legal</div>
+                        <a class="fs-6 text-blue-color-product cursor" data-bs-target="#legal"
+                            data-bs-toggle="modal">View All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom justify-content-between cursor"
+                            data-bs-target="#legal" data-bs-toggle="modal">
+                            <div class="d-flex gap-1 align-items-center">
+                                <img src="img/check.svg" class="check-big">
+                                <div class="fs-6">Subprocessors</div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="round-b">
+                                    <img src="img/cloud.webp">
+                                </div>
+                                <div class="round-b oracle">
+                                    <img src="img/oracle.webp">
+                                </div>
+                                <div class="round-b sovren">
+                                    <img src="img/sovren.webp">
+                                </div>
+                                <div class="round-b bitbucket">
+                                    <img src="img/bitbkucket.webp">
+                                </div>
+                                <div class="round-b slack">
+                                    <img src="img/slack.webp">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor" data-bs-target="#legal"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Customer Audit Rights</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 cursor" data-bs-target="#legal"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6 text-success">Privacy Policy</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Data Privacy</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#data-privacy" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Employee Privacy Training</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Access Control</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#access-control" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Data Access</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#access-control" data-bs-toggle="modal">
+                            <img src="img/progress.svg" class="check-big">
+                            <div class="fs-6">Password Security</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Infrastructure</div>
+                        <a class="fs-6 text-blue-color-product" data-bs-toggle="modal" href="#infrastructure">View
+                            All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#infrastructure" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Amazon Web Services</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 cursor border-bottom"
+                            data-bs-target="#infrastructure" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Anti-DDoS</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 cursor" data-bs-target="#infrastructure"
+                            data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">BC/DR</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Endpoint Security</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#endpoint-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Disk Encryption</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Network Security</div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#network-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Firewall</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#network-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Traffic Filtering</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Corporate Security</div>
+                        <a class="fs-6 text-blue-color-product cursor" data-bs-target="#corporate-security"
+                            data-bs-toggle="modal">View All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#corporate-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">HR Security</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#corporate-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Internal Assessments</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#corporate-security" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Internal SSO</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Policies</div>
+                        <a class="fs-6 text-blue-color-product cursor" data-bs-target="#policies"
+                            data-bs-toggle="modal">View All</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#policies" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Acceptable Use Policy</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#policies" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Access Control Policy</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 py-3 border-bottom cursor"
+                            data-bs-target="#policies" data-bs-toggle="modal">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Asset Management Policy</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trust-head d-flex justify-content-between align-items-center p-3">
+                        <div class="fs-5 font-weight-600">Security Grades</div>
+                    </div>
+                    <div class="d-flex flex-column cursor" data-bs-target="#security-grades" data-bs-toggle="modal">
+                        <div class="d-flex align-items-center gap-2 pt-3 pb-2">
+                            <img src="img/check.svg" class="check-big">
+                            <div class="fs-6">Qualys SSL Labs</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 justify-content-between px-3 mx-2 sublist">
+                            <div class="small">Traffic Filtering</div>
+                            <div class="small text-success">A+</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 justify-content-between px-3 mx-2 sublist">
+                            <div class="small">Elevatus Portal - Jeddah</div>
+                            <div class="small text-success">A+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance -->
+    <div class="modal fade trust-modal" id="compliance" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="compliance">Compliance</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="image-box-trust d-flex align-items-center justify-content-center">
+                                <img src="img/csa-star.webp">
+                            </div>
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">CSA STAR</div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="fs-6">Auditor</div>
+                                    <div class="fs-6 text-gray">Self-assessment</div>
+                                </div>
+                                <span class="text-gray small">We regularly perform self-assessments according to the the
+                                    Consensus Assessment Initiative Questionnaire (CAIQ).</span>
+                                <a class="btn-gradient btn-request text-white font-weight-600 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                    Access</a>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="image-box-trust d-flex align-items-center justify-content-center">
+                                <img src="img/gdpr.webp">
+                            </div>
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">GDPR</div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="fs-6">Auditor</div>
+                                    <div class="fs-6 text-gray">Elias Neocleous & Co LLC</div>
+                                </div>
+                                <span class="text-gray small">We comply with the European Union’s General Data
+                                    Protection Regulation, which governs data protection and privacy for all individuals
+                                    citizens of the European Union and the European Economic Area.</span>
+                                <span class="text-gray small">We underwent a GDPR attestation audit as a form of
+                                    external party assurance for data privacy.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="image-box-trust d-flex align-items-center justify-content-center">
+                                <img src="img/soc_2.webp">
+                            </div>
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">SOC 2</div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="fs-6">Auditor</div>
+                                    <div class="fs-6 text-gray">TAG Global</div>
+                                </div>
+                                <span class="text-gray small">Elevatus underwent a SOC 2 Type II audit over the period
+                                    from January 1st, 2023 until October 31st, 2023 and attained an attestation report
+                                    from TAG Global.</span>
+                                <a class="btn-gradient btn-request text-white font-weight-600 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                    Access</a>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex py-4 gap-3 align-items-center">
+                            <div class="image-box-trust d-flex align-items-center justify-content-center">
+                                <img src="img/iso.webp">
+                            </div>
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/progress.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">ISO 27001</div>
+                                </div>
+                                <a class="btn-gradient btn-request text-white font-weight-600 mt-3 bg-progress"
+                                    href="#">In Progress</a>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex py-4 gap-3 align-items-center">
+                            <div class="image-box-trust d-flex align-items-center justify-content-center">
+                                <img src="img/iso.webp">
+                            </div>
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/progress.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">ISO 27001</div>
+                                </div>
+                                <a class="btn-gradient btn-request text-white font-weight-600 mt-3 bg-progress"
+                                    href="#">In Progress</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Risk Profile -->
+    <div class="modal fade trust-modal" id="risk_profile" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="risk_profile">Risk Profile</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Data Access Level</div>
+                                </div>
+                                <span class="text-gray small">As a SaaS vendor selling to an enterprise customer, what
+                                    type of data do you need access to?</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">Public</a>
+                                    <small class="fs-6 text-gray">(i.e. information may be shared with anyone or
+                                        publicly accessible)</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Impact Level</div>
+                                </div>
+                                <span class="text-gray small">What is the potential impact to your enterprise customer
+                                    if the data and/or functionality you, as the vendor, are supposed to manage, is
+                                    compromised?</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">Substantial</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Recovery Time Objective</div>
+                                </div>
+                                <span class="text-gray small">What is your recovery time objective in case of critical
+                                    failure? (e.g., your DB is deleted)</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">24 hours</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Recovery Point Objective</div>
+                                </div>
+                                <span class="text-gray small">What is your recovery point objective in case of critical
+                                    failure? (e.g., your DB is deleted)</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">24 hours</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Critical Dependence</div>
+                                </div>
+                                <span class="text-gray small">Will your product be a system that your enterprise
+                                    customer critically depends on? (i.e., a failure would cost them a ton of
+                                    money)</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">Yes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Third Party Dependence</div>
+                                </div>
+                                <span class="text-gray small">Are you also using other third-party services to manage or
+                                    support your customers?</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">Yes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Hosting</div>
+                                </div>
+                                <span class="text-gray small">Are you hosted only on one of the major cloud providers or
+                                    do you have any on-premise systems?</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-request text-white font-weight-600 bg-progress" href="#">Major Cloud
+                                        Provider</a>
+                                    <small class="fs-6 text-gray">(e.g., AWS, Azure, GCP, Salesforce, or Digital
+                                        Ocean)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Infrastructure -->
+    <div class="modal fade trust-modal" id="infrastructure" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="infrastructure">Infrastructure</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Amazon Web Services</div>
+                                </div>
+                                <span class="text-gray small">Amazon S3 and SES are used to facilitate certain storage
+                                    capabilities and give efficient email functionality.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Anti-DDoS</div>
+                                </div>
+                                <span class="text-gray small">Nginx Ingress Controller is used to throttle requests and
+                                    prevent unauthorized traffic from overloading the Elevatus systems.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">BC/DR</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Google Cloud Platform</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Network Time Protocol</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Separate Production Environment</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Data Security -->
+    <div class="modal fade trust-modal" id="data-security" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="data-security">Data Security</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Access Monitoring</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Backups Enabled</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Encryption-at-rest</div>
+                                </div>
+                                <span class="text-gray small">As part of our use of global cloud providers, all data are
+                                    encrypted at rest.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Encryption-in-transit</div>
+                                </div>
+                                <span class="text-gray small">Data are encrypted in transit via TLS.</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Security -->
+    <div class="modal fade trust-modal" id="product_security" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="data-security">Product Security</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Multi-Factor Authentication</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Role-Based Access Control</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Service-Level Agreement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Report -->
+    <div class="modal fade trust-modal" id="report" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="report">Report</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Network Diagram</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Pentest Report</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/progress.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">SOC 2 Report</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">In Progress</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Self-Assessments -->
+    <div class="modal fade trust-modal" id="self-assessments" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="self-assessments">Aelf-Assessments</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">CAIQ</div>
+                                </div>
+                                <span class="text-gray small">We regularly perform CAIQ self-assessments and initiate
+                                    internal audits across the 17 CCM domains.</span>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- App Security -->
+    <div class="modal fade trust-modal" id="app-security" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="app-security">App Security</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">SBOM</div>
+                                </div>
+                                <span class="text-gray small">We generate and maintain a versioned history of CycloneDX
+                                    SBOM files exported deterministically through our build processes.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Data Privacy -->
+    <div class="modal fade trust-modal" id="data-privacy" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="app-security">Data Privacy</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Employee Privacy Training</div>
+                                </div>
+                                <span class="text-gray small">Employees perform annual Security Training through Drata
+                                    to protect organization data and the workplace.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Access Control -->
+    <div class="modal fade trust-modal" id="access-control" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="access-control">Access Control</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Data Access</div>
+                                </div>
+                                <span class="text-gray small">We enforce IAM and RBAC policies across all
+                                    services.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/progress.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Password Security</div>
+                                </div>
+                                <span class="text-gray small">Password complexity is met, we require a minimum of 16
+                                    characters that are mixed.</span>
+                                <span class="text-gray small">Bitwarden is currently being rolled out at Elevatus as a
+                                    dedicated password and key management solution.</span>
+                                <div class="d-flex mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600 bg-progress"
+                                        href="#">In Progress</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Endpoint Security -->
+    <div class="modal fade trust-modal" id="endpoint-security" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="endpoint-security">Endpoint Security</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Disk Encryption</div>
+                                </div>
+                                <span class="text-gray small">All laptop devices are required to be encrypted prior to
+                                    assignment of access.</span>
+                                <span class="text-gray small">We use FileVault, Bitlocker and LUKS to encrypt data on
+                                    our corporate laptops.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Network Security -->
+    <div class="modal fade trust-modal" id="network-security" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="network-security">Network Security</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Firewall</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Traffic Filtering</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Corporate Security -->
+    <div class="modal fade trust-modal" id="corporate-security" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="corporate-security">Corporate Security</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">HR Security</div>
+                                </div>
+                                <span class="text-gray small">Our employees undergo a thorough on-boarding cycle that
+                                    involves MFA setup, policy review and acceptance, agent installation (for lite
+                                    mobile device management), hardening of IT systems, and security awareness
+                                    training.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Internal Assessments</div>
+                                </div>
+                                <span class="text-gray small">We perform assessments across the CCM domains regularly in
+                                    an ad-hoc fashion in addition to the annual review. This happens in specific events
+                                    such as the acquisition of a new vendor, or a change in cloud infrastructure.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Internal SSO</div>
+                                </div>
+                                <span class="text-gray small">We use Google as an Identity Provider with full
+                                    enforcement of MFA.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Penetration Testing</div>
+                                </div>
+                                <span class="text-gray small">We perform penetration testing annually or when
+                                    significant infrastructure changes are made. Following the initial report, we
+                                    address the issues and retest in order to have a remediation report that ensures the
+                                    points tested are covered.</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Policies -->
+    <div class="modal fade trust-modal" id="policies" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="policies">Policies</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Acceptable Use Policy</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Access Control Policy</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Asset Management Policy</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Backup Policy</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Business Continuity Policy</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Data Classification Policy</div>
+                                </div>
+                                <div class="d-flex gap-2 align-items-center mt-3">
+                                    <a class="btn-gradient btn-request text-white font-weight-600" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+                                        Access</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Data Security Policy</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Security Grades -->
+    <div class="modal fade trust-modal" id="security-grades" aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="security-grades">Security Grades</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content w-100">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Qualys SSL Labs</div>
+                                </div>
+                                <span class="text-gray small">Endpoints</span>
+                                <div
+                                    class="d-flex align-items-center justify-content-between mb-2 w-100 p-3 bg-light-gray">
+                                    <div class="d-flex align-items-center gap-2 w-100">
+                                        <div><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="36" height="36" rx="4" fill="white" />
+                                                <path
+                                                    d="M16.8486 12.9087V14.6057H12.6061V23.939H21.9395V19.6966H23.6365V24.7875C23.6365 25.2561 23.2566 25.636 22.788 25.636H11.7577C11.2891 25.636 10.9092 25.2561 10.9092 24.7875V13.7572C10.9092 13.2886 11.2891 12.9087 11.7577 12.9087H16.8486ZM26.1819 10.3633V17.1512H24.4849L24.4849 13.2592L17.8728 19.8723L16.6728 18.6724L23.2842 12.0603H19.394V10.3633H26.1819Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <div class="fs-6 font-weight-600">Elevatus Portal - Eemshaven</div>
+                                            <span class="text-gray small">Our Netherlands datacenter on Google Cloud
+                                                Platform.</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-success fs-5">
+                                        A+
+                                    </div>
+                                </div>
+                                <div
+                                    class="d-flex align-items-center justify-content-between mb-2 p-3 bg-light-gray w-100">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="36" height="36" rx="4" fill="white" />
+                                                <path
+                                                    d="M16.8486 12.9087V14.6057H12.6061V23.939H21.9395V19.6966H23.6365V24.7875C23.6365 25.2561 23.2566 25.636 22.788 25.636H11.7577C11.2891 25.636 10.9092 25.2561 10.9092 24.7875V13.7572C10.9092 13.2886 11.2891 12.9087 11.7577 12.9087H16.8486ZM26.1819 10.3633V17.1512H24.4849L24.4849 13.2592L17.8728 19.8723L16.6728 18.6724L23.2842 12.0603H19.394V10.3633H26.1819Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <div class="fs-6 font-weight-600">Elevatus Portal - Eemshaven</div>
+                                            <span class="text-gray small">Our Netherlands datacenter on Google Cloud
+                                                Platform.</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-success fs-5">
+                                        A+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Legal -->
+    <div class="modal fade trust-modal" id="legal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4 font-weight-600" id="legal">Legal</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body py-5">
+                    <div class="container">
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content w-100">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Subprocessors</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-2 w-100 p-3">
+                                    <table class="w-100">
+                                        <tr class="row bg-light-gray py-2">
+                                            <th class="col-lg-4 font-weight-600">Company</th>
+                                            <th class="col-lg-4 font-weight-600">Location</th>
+                                            <th class="col-lg-4 font-weight-600">Additional Details</th>
+                                        </tr>
+                                        <tr class="row py-2">
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                <div class="circle">
+                                                    <img src="img/cloud.webp">
+                                                </div>Google Cloud
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                Netherlands</td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Cloud
+                                                Provider</td>
+                                        </tr>
+                                        <tr class="row py-2 bg-light-gray">
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                <div class="circle oracle">
+                                                    <img src="img/oracle.webp">
+                                                </div>Oracle
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Jeddah
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Jeddah
+                                            </td>
+                                        </tr>
+                                        <tr class="row py-2">
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                <div class="circle sovaren">
+                                                    <img src="img/sovren.webp">
+                                                </div>Sovren
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">EU</td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Resume
+                                                Parsing</td>
+                                        </tr>
+                                        <tr class="row py-2 bg-light-gray">
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                <div class="circle bitbucket">
+                                                    <img src="img/bitbkucket.webp">
+                                                </div>Bitbucket
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">EU</td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Software
+                                                Version Control</td>
+                                        </tr>
+                                        <tr class="row py-2">
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                <div class="circle slack">
+                                                    <img src="img/slack.webp">
+                                                </div>Slack
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">EU</td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Team
+                                                Communication</td>
+                                        </tr>
+                                        <tr class="row py-2 bg-light-gray">
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">
+                                                <div class="circle agora">
+                                                    <img src="img/agora.webp">
+                                                </div>Agora
+                                            </td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">EU</td>
+                                            <td class="col-lg-4 d-flex gap-2 align-items-center text-gray fs-6">Video
+                                                Recording</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Customer Audit Rights</div>
+                                </div>
+                                <span class="text-gray small">Customers are able to audit our security protocols
+                                    with penetration and vulnerability tests as long as we are notified a week in
+                                    advance and the proper procedures and protocols have been adhered to.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Privacy Policy</div>
+                                </div>
+                                <span class="text-gray small">Our Privacy Policy ensures the protection and
+                                    confidentiality of user data, outlining how information is collected, used, and
+                                    shared in accordance with applicable laws and regulations.</span>
+                            </div>
+                        </div>
+                        <div class="d-lg-flex border-bottom py-4 gap-3 align-items-center">
+                            <div class="trust-content">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="img/check.svg" class="check-big">
+                                    <div class="fs-6 font-weight-600">Terms of Service</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade  trust-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header p-4">
+                    <h1 class="modal-title fs-4 font-weight-600" id="legal">Request Access</h1>
+                    <a href="#" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="white" />
+                            <path
+                                d="M15.9969 14.7051L20.5223 10.1797L21.8151 11.4724L17.2896 15.9979L21.8151 20.5233L20.5223 21.816L15.9969 17.2906L11.4714 21.816L10.1787 20.5233L14.7042 15.9979L10.1787 11.4724L11.4714 10.1797L15.9969 14.7051Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">First Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Job Title</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Work Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Company name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-2">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">I have read and agree to <a href="#" class="text-blue-color-product">Terms of Service</a> and <a href="#" class="text-blue-color-product">Privacy Policy</a> of KABi Trust</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">I would like to get KABi’s Trust Center Updates.</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <a class="btn w-100 btn-request2 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Request Access</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<?php get_footer(); ?>

@@ -1,0 +1,45 @@
+:root {
+    --white: #fff;
+    --primary: #1B82FF;
+    --black: #0f172a;
+    --text: #AAAAAA;
+    --bg: #f8f7f5;
+    --navy: #071C32;
+    --green: #41A575;
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-black {
+    color: var(--navy);
+}
+
+.text-para {
+    color: #666;
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-hyrdd-gradient {
+    font-weight: 700;
+    background: linear-gradient(269.81deg, #236D9B 34.93%, #65B6D6 66.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-inviews {
+    color: var(--green);
+}
+
+.text-jobbit {
+    color: #E2D3FE;
+}
+
+.text-flame {
+    color: #54C3D6;
+}

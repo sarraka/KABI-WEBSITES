@@ -1,0 +1,140 @@
+header {
+    .menu-container {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 32px;
+        padding: 0px 48px;
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        position: relative;
+        height: 54px;
+        width: 55%;
+        justify-content: center;
+
+        .m-menu {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--white);
+            transition: all 0.5s ease;
+
+            &:hover {
+                background-color: #171719;
+                padding: 4px 16px;
+                border-radius: 35px;
+            }
+        }
+    }
+
+    .logo-main {
+        height: 30px;
+    }
+}
+
+
+// drawer
+/* --- drawer --- */
+.drawer {
+    display: none;
+    /* hidden by default */
+    position: absolute;
+    top: 100%;
+    /* right under the menu */
+    left: 0;
+    /* will be shifted in JS version */
+    border-radius: 32px;
+    min-width: 100%;
+    margin-top: 16px;
+    background: rgb(15 17 24 / 94%);
+    border-radius: 32px;
+    z-index: 9;
+}
+
+
+.drawer2 {
+    display: none;
+    /* hidden by default */
+    position: absolute;
+    top: 100%;
+    /* right under the menu */
+    left: 0;
+    /* will be shifted in JS version */
+    border-radius: 32px;
+    min-width: 100%;
+    margin-top: 16px;
+    background: rgb(15 17 24 / 94%);
+    border-radius: 32px;
+    z-index: 9;
+}
+
+.drawer3 {
+    display: none;
+    /* hidden by default */
+    position: absolute;
+    top: 100%;
+    /* right under the menu */
+    left: 0;
+    /* will be shifted in JS version */
+    border-radius: 32px;
+    min-width: 100%;
+    margin-top: 16px;
+    background: rgb(15 17 24 / 94%);
+    border-radius: 32px;
+    z-index: 9;
+}
+
+
+.mobile-menu {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background: rgb(255 255 255 / 13%);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 4px;
+    border: 1px solid rgb(255 255 255 / 9%);
+
+}
+
+.offcanvas {
+    width: 90vw !important;
+    background-color: #1a1919;
+}
+
+.offcanvas-body {
+    padding: 16px;
+
+    a {
+        color: var(--white) !important;
+        opacity: 0.6;
+    }
+}
+
+.solution-menu {
+    background: rgba(172, 172, 172, 0.2);
+    box-shadow: 0px 4px 20px rgba(23, 15, 73, 0.08);
+    border-radius: 15px;
+    padding: 16px !important;
+}
+
+.head-menu {
+    font-weight: 600;
+    color: var(--white);
+    opacity: 1 !important;
+}
+
+.menu-group {
+    background-color: #171719;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    a {
+        &:hover {
+            opacity: 0.4 !important;
+        }
+    }
+}

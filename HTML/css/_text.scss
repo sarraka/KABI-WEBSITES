@@ -1,0 +1,74 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+div {
+    line-height: 1.5em;
+}
+
+.h1 {
+    font-size: 29px;
+    color: var(--white);
+
+    @media (min-width: 992px) {
+        font-size: 52px;
+    }
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.gradient-text {
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(92.95deg, #41A575 65.9%, #3361A9 97.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-inviews-gradient {
+    font-weight: 700;
+    background: linear-gradient(90.12deg, #369B71 35.03%, #96CEB5 64.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-hyrdd {
+    background: linear-gradient(90.68deg, #236D9B 0.48%, #65B6D6 35.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-inviews {
+    background: linear-gradient(92.14deg, #369B71 3.38%, #96CEB5 40.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-jobbit {
+    background: linear-gradient(273.44deg, #EFE6FD 28.15%, #B588F4 46.11%, #9B60EF 65.63%, #7F37E7 84.37%, #691ADA 105.45%, #5000C2 124.96%, #3E0096 145.26%, #360083 169.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

@@ -1,0 +1,38 @@
+.form-control {
+    height: 44px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.form-select {
+    height: 44px;
+    background: none;
+    border: 1px solid #ffffff33;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+textarea {
+    height: 150px !important;
+}
+
+.form-control::placeholder {
+    color: rgba($color: #fff, $alpha: 0.5);
+    /* Your custom color */
+    opacity: 1;
+}
+
+.forms-container {
+    label {
+        color: var(--white);
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
